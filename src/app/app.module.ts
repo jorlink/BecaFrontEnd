@@ -11,7 +11,28 @@ import { Pagina2Component } from './components/shared/pagina2/pagina2.component'
 import { AppRoutingModule } from './app-routing.module';
 import { FormComponent } from './components/shared/form/form.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+<<<<<<< HEAD
+<<<<<<< HEAD
+import { CristabelComponent } from './components/shared/cristabel/cristabel.component';
+import { BastianComponent } from './components/shared/bastian/bastian.component';
+=======
+<<<<<<< HEAD
+=======
 import { ErickComponent } from './components/shared/erick/erick/erick.component';
+import { HernanComponent } from './components/shared/hernan/hernan/hernan.component';
+
+import { ErickComponent } from './components/shared/erick/erick/erick.component';
+
+import { DavidFalconComponent } from './components/shared/david/david-falcon/david-falcon.component';
+
+>>>>>>> 009e309294898b06892508232b9fa9a33b415dab
+import { NelsonComponent } from './components/shared/nelson/nelson/nelson.component';
+import { CamiloComponent } from './components/shared/camilo/camilo/camilo.component';
+
+>>>>>>> 4c1292ac7c80886bd804a7468f3ed7b683e93059
+=======
+import { ErickComponent } from './components/shared/erick/erick/erick.component';
+>>>>>>> caed52d93b53789424101a4dfa79fbd8c2c3666d
 import { FabianComponent } from './components/shared/fabian/fabian/fabian.component';
 import { CristabelComponent } from './components/shared/cristabel/cristabel.component';
 import { BastianComponent } from './components/shared/bastian/bastian.component';
@@ -38,12 +59,20 @@ import { HernanComponent } from './components/shared/hernan/hernan/hernan.compon
     MenuComponent,
     Pagina2Component,
     FormComponent,
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> caed52d93b53789424101a4dfa79fbd8c2c3666d
     ErickComponent,
     DavidFalconComponent,
     HernanComponent,
     CristabelComponent,
     BastianComponent,
     FabianComponent,
+>>>>>>> 009e309294898b06892508232b9fa9a33b415dab
     CristabelComponent,
     BastianComponent,
     AndyComponent,

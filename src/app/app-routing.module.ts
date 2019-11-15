@@ -27,6 +27,10 @@ const router: Routes = [
     component: Pagina2Component
   },
   {
+    path: 'bastian',
+    component: BastianComponent
+  },
+  {
     path: '**',
     component: ContentComponent
   },
