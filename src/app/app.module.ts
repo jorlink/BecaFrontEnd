@@ -11,6 +11,7 @@ import { Pagina2Component } from './components/shared/pagina2/pagina2.component'
 import { AppRoutingModule } from './app-routing.module';
 import { FormComponent } from './components/shared/form/form.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { NelsonComponent } from './components/shared/nelson/nelson/nelson.component';
 import { AndyComponent } from './components/shared/andy/andy/andy.component';
 import { SebastianComponent } from './components/shared/sebastian/sebastian/sebastian.component';
 
@@ -24,7 +25,8 @@ import { SebastianComponent } from './components/shared/sebastian/sebastian/seba
     Pagina2Component,
     FormComponent,
     AndyComponent,
-    SebastianComponent
+    SebastianComponent,
+    NelsonComponent
   ],
   imports: [
     BrowserModule,
