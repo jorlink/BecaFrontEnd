@@ -15,6 +15,7 @@ import { NelsonComponent } from './components/shared/nelson/nelson/nelson.compon
 import { CamiloComponent } from './components/shared/camilo/camilo/camilo.component';
 import { AndyComponent } from './components/shared/andy/andy/andy.component';
 import { SebastianComponent } from './components/shared/sebastian/sebastian/sebastian.component';
+import { XimenaComponent } from './components/shared/ximena/ximena/ximena.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { SebastianComponent } from './components/shared/sebastian/sebastian/seba
     NelsonComponent,
     CamiloComponent,
     AndyComponent,
-    SebastianComponent
+    SebastianComponent,
+    XimenaComponent
   ],
   imports: [
     BrowserModule,
