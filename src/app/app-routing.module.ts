@@ -12,21 +12,11 @@ import { CristabelComponent } from './components/shared/cristabel/cristabel.comp
 import { NelsonComponent } from './components/shared/nelson/nelson/nelson.component';
 import { RodrigoComponent } from './components/shared/rodrigo/rodrigo/rodrigo.component';
 import { GeregereComponent } from './components/shared/carlos/geregere.component';
+import { HernanComponent } from './components/shared/hernan/hernan/hernan.component';
+import { DavidFalconComponent } from './components/shared/david/david-falcon/david-falcon.component';
+import { OliverComponent } from './components/shared/oliver/oliver.component';
 
 const routes: Routes = [
-  {
-    path: 'content',
-    component: ContentComponent
-  },
-  {
-    path: 'pagina2',
-    component: Pagina2Component
-  },
-
-  {
-    path: '**',
-    component: ContentComponent
-  }
   { path: 'content', component: ContentComponent },
   { path: 'ximena', component: XimenaComponent },
   { path: 'sebastian', component: SebastianComponent },
@@ -38,9 +28,11 @@ const routes: Routes = [
   { path: 'rodrigo', component: RodrigoComponent },
   { path: 'carlos', component: GeregereComponent },
   { path: 'cristabel', component: CristabelComponent },
-  { path: 'cristabel', component: CristabelComponent },
+  { path: 'hernan', component: HernanComponent },
+  { path: 'david', component: DavidFalconComponent },
+  { path: 'oliver', component: OliverComponent },
+  { path: 'alonso', component: AlonsoComponent },
   { path: '**', component: ContentComponent }
-
 ];
 
 @NgModule({
