@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { Pagina2Component } from './components/shared/pagina2/pagina2.component';
 import { ContentComponent } from './components/main/content/content.component';
+import {LorenaComponent} from './components/shared/lorena/lorena/lorena.component';
 import { AlonsoComponent } from './components/shared/alonso/alonso.component';
 import { XimenaComponent } from './components/shared/ximena/ximena/ximena.component';
 import { SebastianComponent } from './components/shared/sebastian/sebastian/sebastian.component';
@@ -16,7 +17,19 @@ import { HernanComponent } from './components/shared/hernan/hernan/hernan.compon
 import { DavidFalconComponent } from './components/shared/david/david-falcon/david-falcon.component';
 import { OliverComponent } from './components/shared/oliver/oliver.component';
 
-const routes: Routes = [
+const router: Routes = [
+  {
+    path: 'content',
+    component: ContentComponent
+  },
+  {
+    path: 'pagina2',
+    component: Pagina2Component
+  },
+  {
+    path: '**',
+    component: ContentComponent
+  },
   { path: 'content', component: ContentComponent },
   { path: 'ximena', component: XimenaComponent },
   { path: 'sebastian', component: SebastianComponent },
@@ -32,11 +45,12 @@ const routes: Routes = [
   { path: 'david', component: DavidFalconComponent },
   { path: 'oliver', component: OliverComponent },
   { path: 'alonso', component: AlonsoComponent },
+  {path: 'lorena', component: LorenaComponent},
   { path: '**', component: ContentComponent }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(router)],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
