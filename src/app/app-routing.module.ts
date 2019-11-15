@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { Pagina2Component } from './components/shared/pagina2/pagina2.component';
 import { ContentComponent } from './components/main/content/content.component';
+import { AlonsoComponent } from './components/shared/alonso/alonso.component';
 import { XimenaComponent } from './components/shared/ximena/ximena/ximena.component';
 import { SebastianComponent } from './components/shared/sebastian/sebastian/sebastian.component';
 import { AndyComponent } from './components/shared/andy/andy/andy.component';
@@ -13,7 +14,6 @@ import { RodrigoComponent } from './components/shared/rodrigo/rodrigo/rodrigo.co
 import { GeregereComponent } from './components/shared/carlos/geregere.component';
 
 const routes: Routes = [
-<<<<<<< HEAD
   {
     path: 'content',
     component: ContentComponent
@@ -22,12 +22,11 @@ const routes: Routes = [
     path: 'pagina2',
     component: Pagina2Component
   },
- 
+
   {
     path: '**',
     component: ContentComponent
   }
-=======
   { path: 'content', component: ContentComponent },
   { path: 'ximena', component: XimenaComponent },
   { path: 'sebastian', component: SebastianComponent },
@@ -41,7 +40,7 @@ const routes: Routes = [
   { path: 'cristabel', component: CristabelComponent },
   { path: 'cristabel', component: CristabelComponent },
   { path: '**', component: ContentComponent }
->>>>>>> master
+
 ];
 
 @NgModule({

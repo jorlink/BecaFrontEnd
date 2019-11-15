@@ -20,6 +20,7 @@ import { NelsonComponent } from './components/shared/nelson/nelson/nelson.compon
 import { CamiloComponent } from './components/shared/camilo/camilo/camilo.component';
 import { XimenaComponent } from './components/shared/ximena/ximena/ximena.component';
 import { RodrigoComponent } from './components/shared/rodrigo/rodrigo/rodrigo.component';
+import { OliverComponent } from './components/shared/oliver/oliver.component';
 import { GeregereComponent } from './components/shared/carlos/geregere.component';
 
 @NgModule({
@@ -43,6 +44,7 @@ import { GeregereComponent } from './components/shared/carlos/geregere.component
     XimenaComponent,
     RodrigoComponent,
     GeregereComponent,
+    OliverComponent
   ],
   imports: [
     BrowserModule,
