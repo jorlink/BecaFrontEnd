@@ -11,15 +11,23 @@ import { Pagina2Component } from './components/shared/pagina2/pagina2.component'
 import { AppRoutingModule } from './app-routing.module';
 import { FormComponent } from './components/shared/form/form.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ErickComponent } from './components/shared/erick/erick/erick.component';
+import { FabianComponent } from './components/shared/fabian/fabian/fabian.component';
 import { CristabelComponent } from './components/shared/cristabel/cristabel.component';
 import { BastianComponent } from './components/shared/bastian/bastian.component';
-import { NelsonComponent } from './components/shared/nelson/nelson/nelson.component';
-import { CamiloComponent } from './components/shared/camilo/camilo/camilo.component';
 import { AndyComponent } from './components/shared/andy/andy/andy.component';
 import { SebastianComponent } from './components/shared/sebastian/sebastian/sebastian.component';
+import { NelsonComponent } from './components/shared/nelson/nelson/nelson.component';
+import { CamiloComponent } from './components/shared/camilo/camilo/camilo.component';
 import { XimenaComponent } from './components/shared/ximena/ximena/ximena.component';
+import { LorenaComponent } from './components/shared/lorena/lorena/lorena.component';
 import { RodrigoComponent } from './components/shared/rodrigo/rodrigo/rodrigo.component';
-
+import { OliverComponent } from './components/shared/oliver/oliver.component';
+import { GeregereComponent } from './components/shared/carlos/geregere.component';
+import { AlonsoComponent } from './components/shared/alonso/alonso.component';
+import { DavidFalconComponent } from './components/shared/david/david-falcon/david-falcon.component';
+import { PostserviceService } from './components/shared/rodrigo/services/postservice.service';
+import { HernanComponent } from './components/shared/hernan/hernan/hernan.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +38,12 @@ import { RodrigoComponent } from './components/shared/rodrigo/rodrigo/rodrigo.co
     MenuComponent,
     Pagina2Component,
     FormComponent,
+    ErickComponent,
+    DavidFalconComponent,
+    HernanComponent,
+    CristabelComponent,
+    BastianComponent,
+    FabianComponent,
     CristabelComponent,
     BastianComponent,
     AndyComponent,
@@ -39,7 +53,15 @@ import { RodrigoComponent } from './components/shared/rodrigo/rodrigo/rodrigo.co
     AndyComponent,
     SebastianComponent,
     XimenaComponent,
-    RodrigoComponent
+    LorenaComponent,
+    RodrigoComponent,
+    GeregereComponent,
+    OliverComponent,
+    GeregereComponent,
+    HernanComponent,
+    AlonsoComponent,
+    DavidFalconComponent,
+    SebastianComponent
   ],
   imports: [
     BrowserModule,
@@ -50,6 +72,7 @@ import { RodrigoComponent } from './components/shared/rodrigo/rodrigo/rodrigo.co
   ],
   providers: [
     ServicioPruebaService,
+    PostserviceService,
     HttpClient
   ],
   bootstrap: [AppComponent]
