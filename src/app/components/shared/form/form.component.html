@@ -1,0 +1,17 @@
+<form [formGroup]="filterform" (ngSubmit)="onSubmit(checkoutForm.value)">
+  <div>
+    <label>
+      Nombre
+    </label>
+    <input id="name" type="text" formControlName="name">
+  </div>
+
+  <div>
+    <label>
+      Comentario
+    </label>
+    <input id="body" type="text" formControlName="body">
+  </div>
+
+  <button class="button" type="submit">Enviar</button>
+</form>
