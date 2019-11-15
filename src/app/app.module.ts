@@ -11,6 +11,7 @@ import { Pagina2Component } from './components/shared/pagina2/pagina2.component'
 import { AppRoutingModule } from './app-routing.module';
 import { FormComponent } from './components/shared/form/form.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { CamiloComponent } from './components/shared/camilo/camilo/camilo.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     ContentComponent,
     MenuComponent,
     Pagina2Component,
-    FormComponent
+    FormComponent,
+    CamiloComponent
   ],
   imports: [
     BrowserModule,
