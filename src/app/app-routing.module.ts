@@ -12,6 +12,7 @@ const routes: Routes = [
     path: 'pagina2',
     component: Pagina2Component
   },
+ 
   {
     path: '**',
     component: ContentComponent
