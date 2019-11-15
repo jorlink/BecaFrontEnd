@@ -12,6 +12,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { FormComponent } from './components/shared/form/form.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NelsonComponent } from './components/shared/nelson/nelson/nelson.component';
+import { AndyComponent } from './components/shared/andy/andy/andy.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { NelsonComponent } from './components/shared/nelson/nelson/nelson.compon
     MenuComponent,
     Pagina2Component,
     FormComponent,
-    NelsonComponent
+    NelsonComponent,
+    AndyComponent
   ],
   imports: [
     BrowserModule,
