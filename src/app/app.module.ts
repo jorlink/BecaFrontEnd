@@ -34,7 +34,6 @@ import { GeregereComponent } from './components/shared/carlos/geregere.component
     HernanComponent,
     CristabelComponent,
     BastianComponent,
-    CristabelComponent,
     AndyComponent,
     SebastianComponent,
     NelsonComponent,
@@ -42,9 +41,8 @@ import { GeregereComponent } from './components/shared/carlos/geregere.component
     AndyComponent,
     SebastianComponent,
     XimenaComponent,
-    RodrigoComponent,
     GeregereComponent,
-    GeregereComponent
+    RodrigoComponent
   ],
   imports: [
     BrowserModule,

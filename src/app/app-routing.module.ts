@@ -14,7 +14,6 @@ import { GeregereComponent } from './components/shared/carlos/geregere.component
 
 const routes: Routes = [
   { path: 'content', component: ContentComponent },
-  { path: 'pagina2', component: Pagina2Component },
   { path: 'ximena', component: XimenaComponent },
   { path: 'sebastian', component: SebastianComponent },
   { path: 'andy', component: AndyComponent },
