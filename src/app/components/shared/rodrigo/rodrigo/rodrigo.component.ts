@@ -1,8 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { PostserviceService } from '../services/postservice.service';
 
-
-
 @Component({
   selector: 'app-rodrigo',
   templateUrl: './rodrigo.component.html',
