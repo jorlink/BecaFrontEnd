@@ -16,6 +16,7 @@ import { CamiloComponent } from './components/shared/camilo/camilo/camilo.compon
 import { AndyComponent } from './components/shared/andy/andy/andy.component';
 import { SebastianComponent } from './components/shared/sebastian/sebastian/sebastian.component';
 import { XimenaComponent } from './components/shared/ximena/ximena/ximena.component';
+import { LorenaComponent } from './components/shared/lorena/lorena/lorena.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { XimenaComponent } from './components/shared/ximena/ximena/ximena.compon
     CamiloComponent,
     AndyComponent,
     SebastianComponent,
-    XimenaComponent
+    XimenaComponent,
+    LorenaComponent
   ],
   imports: [
     BrowserModule,
