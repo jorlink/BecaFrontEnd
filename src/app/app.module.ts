@@ -11,38 +11,20 @@ import { Pagina2Component } from './components/shared/pagina2/pagina2.component'
 import { AppRoutingModule } from './app-routing.module';
 import { FormComponent } from './components/shared/form/form.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-<<<<<<< HEAD
+
 import { FabianComponent } from './components/shared/fabian/fabian/fabian.component';
-=======
-<<<<<<< HEAD
-import { HernanComponent } from './components/shared/hernan/hernan/hernan.component';
-<<<<<<< HEAD
->>>>>>> d3e28f0517b41d40a7426c763a9e9ac8b537b22f
+
 import { CristabelComponent } from './components/shared/cristabel/cristabel.component';
 import { BastianComponent } from './components/shared/bastian/bastian.component';
-=======
-=======
-<<<<<<< HEAD
-import { CristabelComponent } from './components/shared/cristabel/cristabel.component';
-=======
-import { BastianComponent } from './components/shared/bastian/bastian.component';
->>>>>>> 6eac2fbc68a3e195b47449f6fd9ff2aa3f0631d3
->>>>>>> dev-Hernan
 import { NelsonComponent } from './components/shared/nelson/nelson/nelson.component';
 import { CamiloComponent } from './components/shared/camilo/camilo/camilo.component';
 import { AndyComponent } from './components/shared/andy/andy/andy.component';
 import { SebastianComponent } from './components/shared/sebastian/sebastian/sebastian.component';
 import { XimenaComponent } from './components/shared/ximena/ximena/ximena.component';
 import { RodrigoComponent } from './components/shared/rodrigo/rodrigo/rodrigo.component';
-<<<<<<< HEAD
-<<<<<<< HEAD
-import { GeregereComponent } from './components/shared/geregere/geregere.component';
-=======
->>>>>>> aa6b5fea80baf14dea68e6acfd8d387d00448d1b
->>>>>>> dev-Hernan
-=======
-import { GeregereComponent } from './components/shared/carlos/geregere.component';
->>>>>>> 421381670ed2b113d1ab723dac5101bf9aadf5b3
+
+
+
 
 @NgModule({
   declarations: [
@@ -53,23 +35,13 @@ import { GeregereComponent } from './components/shared/carlos/geregere.component
     MenuComponent,
     Pagina2Component,
     FormComponent,
-<<<<<<< HEAD
-    FabianComponent,
-=======
-<<<<<<< HEAD
-    HernanComponent
-<<<<<<< HEAD
+
+    
+    FabianComponent
+
+    
     CristabelComponent,
     BastianComponent,
-=======
-=======
-<<<<<<< HEAD
->>>>>>> d3e28f0517b41d40a7426c763a9e9ac8b537b22f
-    CristabelComponent,
-=======
-    BastianComponent,
->>>>>>> 6eac2fbc68a3e195b47449f6fd9ff2aa3f0631d3
->>>>>>> dev-Hernan
     AndyComponent,
     SebastianComponent,
     NelsonComponent,
@@ -77,17 +49,9 @@ import { GeregereComponent } from './components/shared/carlos/geregere.component
     AndyComponent,
     SebastianComponent,
     XimenaComponent,
-<<<<<<< HEAD
     RodrigoComponent,
-<<<<<<< HEAD
     GeregereComponent,
-=======
-    RodrigoComponent
->>>>>>> aa6b5fea80baf14dea68e6acfd8d387d00448d1b
->>>>>>> dev-Hernan
-=======
-    GeregereComponent
->>>>>>> 421381670ed2b113d1ab723dac5101bf9aadf5b3
+ 
   ],
   imports: [
     BrowserModule,
