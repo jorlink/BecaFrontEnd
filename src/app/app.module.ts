@@ -12,6 +12,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { FormComponent } from './components/shared/form/form.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CristabelComponent } from './components/shared/cristabel/cristabel.component';
+import { NelsonComponent } from './components/shared/nelson/nelson/nelson.component';
+import { CamiloComponent } from './components/shared/camilo/camilo/camilo.component';
+import { AndyComponent } from './components/shared/andy/andy/andy.component';
+import { SebastianComponent } from './components/shared/sebastian/sebastian/sebastian.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +26,13 @@ import { CristabelComponent } from './components/shared/cristabel/cristabel.comp
     MenuComponent,
     Pagina2Component,
     FormComponent,
-    CristabelComponent
+    CristabelComponent,
+    AndyComponent,
+    SebastianComponent,
+    NelsonComponent,
+    CamiloComponent,
+    AndyComponent,
+    SebastianComponent
   ],
   imports: [
     BrowserModule,
