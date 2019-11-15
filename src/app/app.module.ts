@@ -12,6 +12,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { FormComponent } from './components/shared/form/form.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NelsonComponent } from './components/shared/nelson/nelson/nelson.component';
+import { CamiloComponent } from './components/shared/camilo/camilo/camilo.component';
 import { AndyComponent } from './components/shared/andy/andy/andy.component';
 import { SebastianComponent } from './components/shared/sebastian/sebastian/sebastian.component';
 
@@ -26,7 +27,10 @@ import { SebastianComponent } from './components/shared/sebastian/sebastian/seba
     FormComponent,
     AndyComponent,
     SebastianComponent,
-    NelsonComponent
+    NelsonComponent,
+    CamiloComponent,
+    AndyComponent,
+    SebastianComponent
   ],
   imports: [
     BrowserModule,
