@@ -15,6 +15,7 @@ import { ErickComponent } from './components/shared/erick/erick/erick.component'
 import { HernanComponent } from './components/shared/hernan/hernan/hernan.component';
 import { NelsonComponent } from './components/shared/nelson/nelson/nelson.component';
 import { CamiloComponent } from './components/shared/camilo/camilo/camilo.component';
+
 import { FabianComponent } from './components/shared/fabian/fabian/fabian.component';
 import { CristabelComponent } from './components/shared/cristabel/cristabel.component';
 import { BastianComponent } from './components/shared/bastian/bastian.component';
@@ -27,6 +28,12 @@ import { OliverComponent } from './components/shared/oliver/oliver.component';
 import { AlonsoComponent } from './components/shared/alonso/alonso.component';
 import { DavidFalconComponent } from './components/shared/david/david-falcon/david-falcon.component';
 
+import { OliverComponent } from './components/shared/oliver/oliver.component';
+import { GeregereComponent } from './components/shared/carlos/geregere.component';
+import { AlonsoComponent } from './components/shared/alonso/alonso.component';
+import { DavidFalconComponent } from './components/shared/david/david-falcon/david-falcon.component';
+import { PostserviceService } from './components/shared/rodrigo/services/postservice.service';
+import { HernanComponent } from './components/shared/hernan/hernan/hernan.component';
 
 @NgModule({
   declarations: [
@@ -71,6 +78,7 @@ import { DavidFalconComponent } from './components/shared/david/david-falcon/dav
   ],
   providers: [
     ServicioPruebaService,
+    PostserviceService,
     HttpClient
   ],
   bootstrap: [AppComponent]

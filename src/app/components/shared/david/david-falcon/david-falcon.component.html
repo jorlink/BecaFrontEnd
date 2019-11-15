@@ -1,3 +1,37 @@
+<input type="text" class="btn" placeholder="Buscar pais" #nombrePais (keyup.enter)="buscarPais(nombrePais.value)">
+
+
+<span *ngIf="ocultar" class="color">No existen resultados con el termino {{valor}}</span>
+
+
+<table *ngIf="mostrar" class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Pais</th>
+            <th scope="col">Poblacion</th>
+            <th scope="col">Capital</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let pais of resultado; let i = index">
+            <th>{{i + 1}}</th>
+            <th>{{ pais.name }}</th>
+            <td>{{ pais.population}}</td>
+            <td>{{ pais.capital }}</td>
+
+        </tr>
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
 <table class="table">
     <div class="container">
         <thead>

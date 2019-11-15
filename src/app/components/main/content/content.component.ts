@@ -12,7 +12,6 @@ export class ContentComponent implements OnInit {
   varTest = 6;
   largoTabla: number;
   variable: string;
-  cualquiera: string;
   comentarios: CommentModel[] = [];
 
 
