@@ -15,6 +15,7 @@ paises: any;
   ngOnInit() {
 this.serv.mostrarPaises().subscribe(resp => {
   console.log(resp);
+  this.paises = resp;
 })
 
   }
