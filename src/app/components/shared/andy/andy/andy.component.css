@@ -80,6 +80,7 @@ h1 sub
     overflow: hidden;
     transform-origin: 50% 100%;
     transform: perspective(300px) rotateX(25deg);
+    background-color: black;
 }
 
 #titles:after
