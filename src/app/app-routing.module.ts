@@ -10,6 +10,7 @@ import { CamiloComponent } from './components/shared/camilo/camilo/camilo.compon
 import { CristabelComponent } from './components/shared/cristabel/cristabel.component';
 import { NelsonComponent } from './components/shared/nelson/nelson/nelson.component';
 import { RodrigoComponent } from './components/shared/rodrigo/rodrigo/rodrigo.component';
+import { GeregereComponent } from './components/shared/carlos/geregere.component';
 
 const routes: Routes = [
   { path: 'content', component: ContentComponent },
@@ -22,6 +23,8 @@ const routes: Routes = [
   { path: 'cristabel', component: CristabelComponent },
   { path: 'nelson', component: NelsonComponent },
   { path: 'rodrigo', component: RodrigoComponent },
+  { path: 'carlos', component: GeregereComponent },
+  { path: 'cristabel', component: CristabelComponent },
   { path: 'cristabel', component: CristabelComponent },
   { path: '**', component: ContentComponent }
 ];
