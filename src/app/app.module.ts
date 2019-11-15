@@ -14,15 +14,14 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HernanComponent } from './components/shared/hernan/hernan/hernan.component';
 import { CristabelComponent } from './components/shared/cristabel/cristabel.component';
 import { BastianComponent } from './components/shared/bastian/bastian.component';
-import { AlonsoComponent } from './components/shared/alonso/alonso.component';
 import { NelsonComponent } from './components/shared/nelson/nelson/nelson.component';
 import { CamiloComponent } from './components/shared/camilo/camilo/camilo.component';
 import { AndyComponent } from './components/shared/andy/andy/andy.component';
 import { SebastianComponent } from './components/shared/sebastian/sebastian/sebastian.component';
+import { DavidFalconComponent } from './components/shared/david/david-falcon/david-falcon.component';
 import { XimenaComponent } from './components/shared/ximena/ximena/ximena.component';
 import { RodrigoComponent } from './components/shared/rodrigo/rodrigo/rodrigo.component';
 import { GeregereComponent } from './components/shared/carlos/geregere.component';
-
 
 @NgModule({
   declarations: [
@@ -36,21 +35,16 @@ import { GeregereComponent } from './components/shared/carlos/geregere.component
     HernanComponent,
     CristabelComponent,
     BastianComponent,
-    CristabelComponent,
-    BastianComponent,
-    AlonsoComponent,
     AndyComponent,
     SebastianComponent,
     NelsonComponent,
     CamiloComponent,
     AndyComponent,
     SebastianComponent,
+    DavidFalconComponent,
     XimenaComponent,
-    RodrigoComponent,
     GeregereComponent,
-    RodrigoComponent,
-    GeregereComponent
-
+    RodrigoComponent
   ],
   imports: [
     BrowserModule,
