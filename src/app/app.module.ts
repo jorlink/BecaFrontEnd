@@ -11,29 +11,16 @@ import { Pagina2Component } from './components/shared/pagina2/pagina2.component'
 import { AppRoutingModule } from './app-routing.module';
 import { FormComponent } from './components/shared/form/form.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-<<<<<<< HEAD
-
 import { FabianComponent } from './components/shared/fabian/fabian/fabian.component';
-
-=======
-import { HernanComponent } from './components/shared/hernan/hernan/hernan.component';
->>>>>>> 286e1a66e1df37dcb75bed5e87a285ce9ace850c
 import { CristabelComponent } from './components/shared/cristabel/cristabel.component';
 import { BastianComponent } from './components/shared/bastian/bastian.component';
-import { NelsonComponent } from './components/shared/nelson/nelson/nelson.component';
-import { CamiloComponent } from './components/shared/camilo/camilo/camilo.component';
 import { AndyComponent } from './components/shared/andy/andy/andy.component';
 import { SebastianComponent } from './components/shared/sebastian/sebastian/sebastian.component';
-import { DavidFalconComponent } from './components/shared/david/david-falcon/david-falcon.component';
+import { NelsonComponent } from './components/shared/nelson/nelson/nelson.component';
+import { CamiloComponent } from './components/shared/camilo/camilo/camilo.component';
 import { XimenaComponent } from './components/shared/ximena/ximena/ximena.component';
 import { RodrigoComponent } from './components/shared/rodrigo/rodrigo/rodrigo.component';
-<<<<<<< HEAD
-
-
-
-=======
 import { GeregereComponent } from './components/shared/carlos/geregere.component';
->>>>>>> 286e1a66e1df37dcb75bed5e87a285ce9ace850c
 
 @NgModule({
   declarations: [
@@ -44,15 +31,7 @@ import { GeregereComponent } from './components/shared/carlos/geregere.component
     MenuComponent,
     Pagina2Component,
     FormComponent,
-<<<<<<< HEAD
-
-    
-    FabianComponent
-
-    
-=======
-    HernanComponent,
->>>>>>> 286e1a66e1df37dcb75bed5e87a285ce9ace850c
+    FabianComponent,
     CristabelComponent,
     BastianComponent,
     AndyComponent,
@@ -61,16 +40,9 @@ import { GeregereComponent } from './components/shared/carlos/geregere.component
     CamiloComponent,
     AndyComponent,
     SebastianComponent,
-    DavidFalconComponent,
     XimenaComponent,
-<<<<<<< HEAD
     RodrigoComponent,
     GeregereComponent,
- 
-=======
-    GeregereComponent,
-    RodrigoComponent
->>>>>>> 286e1a66e1df37dcb75bed5e87a285ce9ace850c
   ],
   imports: [
     BrowserModule,
