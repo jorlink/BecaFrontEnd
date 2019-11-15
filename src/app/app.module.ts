@@ -31,10 +31,14 @@ import { SebastianComponent } from './components/shared/sebastian/sebastian/seba
 import { XimenaComponent } from './components/shared/ximena/ximena/ximena.component';
 import { RodrigoComponent } from './components/shared/rodrigo/rodrigo/rodrigo.component';
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { GeregereComponent } from './components/shared/geregere/geregere.component';
 =======
 >>>>>>> aa6b5fea80baf14dea68e6acfd8d387d00448d1b
 >>>>>>> dev-Hernan
+=======
+import { GeregereComponent } from './components/shared/carlos/geregere.component';
+>>>>>>> 421381670ed2b113d1ab723dac5101bf9aadf5b3
 
 @NgModule({
   declarations: [
@@ -67,11 +71,15 @@ import { GeregereComponent } from './components/shared/geregere/geregere.compone
     XimenaComponent,
 <<<<<<< HEAD
     RodrigoComponent,
+<<<<<<< HEAD
     GeregereComponent,
 =======
     RodrigoComponent
 >>>>>>> aa6b5fea80baf14dea68e6acfd8d387d00448d1b
 >>>>>>> dev-Hernan
+=======
+    GeregereComponent
+>>>>>>> 421381670ed2b113d1ab723dac5101bf9aadf5b3
   ],
   imports: [
     BrowserModule,
