@@ -13,6 +13,11 @@ import { FormComponent } from './components/shared/form/form.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ErickComponent } from './components/shared/erick/erick/erick.component';
 import { HernanComponent } from './components/shared/hernan/hernan/hernan.component';
+
+import { ErickComponent } from './components/shared/erick/erick/erick.component';
+
+import { DavidFalconComponent } from './components/shared/david/david-falcon/david-falcon.component';
+
 import { NelsonComponent } from './components/shared/nelson/nelson/nelson.component';
 import { CamiloComponent } from './components/shared/camilo/camilo/camilo.component';
 
@@ -34,6 +39,7 @@ import { AlonsoComponent } from './components/shared/alonso/alonso.component';
 import { DavidFalconComponent } from './components/shared/david/david-falcon/david-falcon.component';
 import { PostserviceService } from './components/shared/rodrigo/services/postservice.service';
 import { HernanComponent } from './components/shared/hernan/hernan/hernan.component';
+
 
 @NgModule({
   declarations: [
@@ -67,7 +73,9 @@ import { HernanComponent } from './components/shared/hernan/hernan/hernan.compon
     GeregereComponent,
     HernanComponent,
     AlonsoComponent,
-    DavidFalconComponent
+    DavidFalconComponent,
+    SebastianComponent
+
   ],
   imports: [
     BrowserModule,
