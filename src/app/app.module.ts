@@ -11,17 +11,33 @@ import { Pagina2Component } from './components/shared/pagina2/pagina2.component'
 import { AppRoutingModule } from './app-routing.module';
 import { FormComponent } from './components/shared/form/form.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+<<<<<<< HEAD
 import { HernanComponent } from './components/shared/hernan/hernan/hernan.component';
 import { CristabelComponent } from './components/shared/cristabel/cristabel.component';
 import { BastianComponet } from './components/shared/bastian/bastian.component';
 import { NelsonComponent } from './components/shared/nelson/nelson/nelson.component';
 import { CamiloComponent } from './components/shared/camilo/camilo/camilo.component';
+=======
+import { FabianComponent } from './components/shared/fabian/fabian/fabian.component';
+import { CristabelComponent } from './components/shared/cristabel/cristabel.component';
+import { BastianComponent } from './components/shared/bastian/bastian.component';
+>>>>>>> 76850006b0c0cb1efe650f9daed2d2b779aba9ba
 import { AndyComponent } from './components/shared/andy/andy/andy.component';
 import { SebastianComponent } from './components/shared/sebastian/sebastian/sebastian.component';
+import { NelsonComponent } from './components/shared/nelson/nelson/nelson.component';
+import { CamiloComponent } from './components/shared/camilo/camilo/camilo.component';
 import { XimenaComponent } from './components/shared/ximena/ximena/ximena.component';
 import { RodrigoComponent } from './components/shared/rodrigo/rodrigo/rodrigo.component';
+<<<<<<< HEAD
 import { GeregereComponent } from './components/shared/geregere/geregere.component';
 import { GeregereComponent } from './components/shared/carlos/geregere.component';
+=======
+import { OliverComponent } from './components/shared/oliver/oliver.component';
+import { GeregereComponent } from './components/shared/carlos/geregere.component';
+import { HernanComponent } from './components/shared/hernan/hernan/hernan.component';
+import { AlonsoComponent } from './components/shared/alonso/alonso.component';
+import { DavidFalconComponent } from './components/shared/david/david-falcon/david-falcon.component';
+>>>>>>> 76850006b0c0cb1efe650f9daed2d2b779aba9ba
 
 @NgModule({
   declarations: [
@@ -32,9 +48,13 @@ import { GeregereComponent } from './components/shared/carlos/geregere.component
     MenuComponent,
     Pagina2Component,
     FormComponent,
+<<<<<<< HEAD
     HernanComponent,
     CristabelComponent,
     BastianComponent,
+=======
+    FabianComponent,
+>>>>>>> 76850006b0c0cb1efe650f9daed2d2b779aba9ba
     CristabelComponent,
     BastianComponent,
     AndyComponent,
@@ -45,9 +65,17 @@ import { GeregereComponent } from './components/shared/carlos/geregere.component
     SebastianComponent,
     XimenaComponent,
     RodrigoComponent,
+<<<<<<< HEAD
     GeregereComponent,
     RodrigoComponent,
     GeregereComponent
+=======
+    OliverComponent,
+    GeregereComponent,
+    HernanComponent,
+    AlonsoComponent,
+    DavidFalconComponent
+>>>>>>> 76850006b0c0cb1efe650f9daed2d2b779aba9ba
   ],
   imports: [
     BrowserModule,
