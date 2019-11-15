@@ -13,6 +13,7 @@ import { RodrigoComponent } from './components/shared/rodrigo/rodrigo/rodrigo.co
 import { GeregereComponent } from './components/shared/carlos/geregere.component';
 import { HernanComponent } from './components/shared/hernan/hernan/hernan.component';
 import { DavidFalconComponent } from './components/shared/david/david-falcon/david-falcon.component';
+import { OliverComponent } from './components/shared/oliver/oliver.component';
 
 const routes: Routes = [
   { path: 'content', component: ContentComponent },
@@ -28,6 +29,7 @@ const routes: Routes = [
   { path: 'cristabel', component: CristabelComponent },
   { path: 'hernan', component: HernanComponent },
   { path: 'david', component: DavidFalconComponent },
+  { path: 'oliver', component: OliverComponent },
   { path: '**', component: ContentComponent }
 ];
 

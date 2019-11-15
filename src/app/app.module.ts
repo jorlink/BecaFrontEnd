@@ -21,6 +21,8 @@ import { DavidFalconComponent } from './components/shared/david/david-falcon/dav
 import { XimenaComponent } from './components/shared/ximena/ximena/ximena.component';
 import { RodrigoComponent } from './components/shared/rodrigo/rodrigo/rodrigo.component';
 import { OliverComponent } from './components/shared/oliver/oliver.component';
+import { GeregereComponent } from './components/shared/carlos/geregere.component';
+import { HernanComponent } from './components/shared/hernan/hernan/hernan.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +44,9 @@ import { OliverComponent } from './components/shared/oliver/oliver.component';
     DavidFalconComponent,
     XimenaComponent,
     RodrigoComponent,
-    OliverComponent
+    OliverComponent,
+    GeregereComponent,
+    HernanComponent
   ],
   imports: [
     BrowserModule,
