@@ -22,7 +22,11 @@ import { NelsonComponent } from './components/shared/nelson/nelson/nelson.compon
 import { CamiloComponent } from './components/shared/camilo/camilo/camilo.component';
 import { AndyComponent } from './components/shared/andy/andy/andy.component';
 import { SebastianComponent } from './components/shared/sebastian/sebastian/sebastian.component';
+<<<<<<< HEAD
 >>>>>>> master
+=======
+import { XimenaComponent } from './components/shared/ximena/ximena/ximena.component';
+>>>>>>> ad4e379f673b550cc1500d4c8bad31af98171d16
 
 @NgModule({
   declarations: [
@@ -45,8 +49,13 @@ import { SebastianComponent } from './components/shared/sebastian/sebastian/seba
     NelsonComponent,
     CamiloComponent,
     AndyComponent,
+<<<<<<< HEAD
     SebastianComponent
 >>>>>>> master
+=======
+    SebastianComponent,
+    XimenaComponent
+>>>>>>> ad4e379f673b550cc1500d4c8bad31af98171d16
   ],
   imports: [
     BrowserModule,
