@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ServicioPruebaService } from '../../../../services/servicio-prueba.service';
 
 @Component({
   selector: 'app-david-falcon',
@@ -6,10 +7,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./david-falcon.component.css']
 })
 export class DavidFalconComponent implements OnInit {
+paises: any;
 
-  constructor() { }
+
+  constructor(private serv: ServicioPruebaService) { }
 
   ngOnInit() {
+this.serv.mostrarPaises().subscribe(resp => {
+  console.log(resp);
+})
+
   }
 
 }
