@@ -11,7 +11,17 @@ import { Pagina2Component } from './components/shared/pagina2/pagina2.component'
 import { AppRoutingModule } from './app-routing.module';
 import { FormComponent } from './components/shared/form/form.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HernanComponent } from './components/shared/hernan/hernan/hernan.component';
+import { CristabelComponent } from './components/shared/cristabel/cristabel.component';
+import { BastianComponent } from './components/shared/bastian/bastian.component';
+import { NelsonComponent } from './components/shared/nelson/nelson/nelson.component';
+import { CamiloComponent } from './components/shared/camilo/camilo/camilo.component';
+import { AndyComponent } from './components/shared/andy/andy/andy.component';
+import { SebastianComponent } from './components/shared/sebastian/sebastian/sebastian.component';
 import { DavidFalconComponent } from './components/shared/david/david-falcon/david-falcon.component';
+import { XimenaComponent } from './components/shared/ximena/ximena/ximena.component';
+import { RodrigoComponent } from './components/shared/rodrigo/rodrigo/rodrigo.component';
+import { GeregereComponent } from './components/shared/carlos/geregere.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +32,19 @@ import { DavidFalconComponent } from './components/shared/david/david-falcon/dav
     MenuComponent,
     Pagina2Component,
     FormComponent,
-    DavidFalconComponent
+    HernanComponent,
+    CristabelComponent,
+    BastianComponent,
+    AndyComponent,
+    SebastianComponent,
+    NelsonComponent,
+    CamiloComponent,
+    AndyComponent,
+    SebastianComponent,
+    DavidFalconComponent,
+    XimenaComponent,
+    GeregereComponent,
+    RodrigoComponent
   ],
   imports: [
     BrowserModule,
