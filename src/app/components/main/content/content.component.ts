@@ -13,6 +13,9 @@ export class ContentComponent implements OnInit {
   largoTabla: number;
   variable: string;
 <<<<<<< HEAD
+  cualquiera: string;
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -23,6 +26,7 @@ export class ContentComponent implements OnInit {
 =======
   cualquiera: string;
 >>>>>>> e8d0cc4c2955687559bb40d33e473db7e7c34b5f
+>>>>>>> 15eba5bada70155f949b67045bf5290a2205ec88
   comentarios: CommentModel[] = [];
 
 
