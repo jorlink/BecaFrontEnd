@@ -15,21 +15,6 @@ import { HernanComponent } from './components/shared/hernan/hernan/hernan.compon
 import { DavidFalconComponent } from './components/shared/david/david-falcon/david-falcon.component';
 
 const routes: Routes = [
-<<<<<<< HEAD
-  {
-    path: 'content',
-    component: ContentComponent
-  },
-  {
-    path: 'pagina2',
-    component: Pagina2Component
-  },
- 
-  {
-    path: '**',
-    component: ContentComponent
-  }
-=======
   { path: 'content', component: ContentComponent },
   { path: 'ximena', component: XimenaComponent },
   { path: 'sebastian', component: SebastianComponent },
@@ -44,7 +29,6 @@ const routes: Routes = [
   { path: 'hernan', component: HernanComponent },
   { path: 'david', component: DavidFalconComponent },
   { path: '**', component: ContentComponent }
->>>>>>> master
 ];
 
 @NgModule({
