@@ -1,0 +1,17 @@
+.formu
+{
+	font-family:cursive;
+	color:#9478FA;
+	font-size:17px;
+	font-weight: bold;
+}
+
+  #formulario
+{
+    width:265px;
+    height:370px;
+    margin-left:450px;
+    padding:5px 5px; 
+    margin-top:60px;
+    position: absolute;
+}
