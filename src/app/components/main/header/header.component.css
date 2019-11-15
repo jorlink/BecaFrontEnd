@@ -2,6 +2,14 @@
     background-color: red;
 }
 
+.vinculos{
+    color: #ffffff;
+    width: 100%;
+}
+.vinculos a {
+    margin-left: 10px;
+}
+
 .logo{
     margin-left:50px;
     margin-top:10px;
