@@ -23,6 +23,7 @@ import { RodrigoComponent } from './components/shared/rodrigo/rodrigo/rodrigo.co
 import { OliverComponent } from './components/shared/oliver/oliver.component';
 import { GeregereComponent } from './components/shared/carlos/geregere.component';
 import { HernanComponent } from './components/shared/hernan/hernan/hernan.component';
+import { AlonsoComponent } from './components/shared/alonso/alonso.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { HernanComponent } from './components/shared/hernan/hernan/hernan.compon
     RodrigoComponent,
     OliverComponent,
     GeregereComponent,
-    HernanComponent
+    HernanComponent,
+    AlonsoComponent
   ],
   imports: [
     BrowserModule,

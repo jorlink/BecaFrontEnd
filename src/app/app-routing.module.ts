@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { Pagina2Component } from './components/shared/pagina2/pagina2.component';
 import { ContentComponent } from './components/main/content/content.component';
+import { AlonsoComponent } from './components/shared/alonso/alonso.component';
 import { XimenaComponent } from './components/shared/ximena/ximena/ximena.component';
 import { SebastianComponent } from './components/shared/sebastian/sebastian/sebastian.component';
 import { AndyComponent } from './components/shared/andy/andy/andy.component';
@@ -30,6 +31,7 @@ const routes: Routes = [
   { path: 'hernan', component: HernanComponent },
   { path: 'david', component: DavidFalconComponent },
   { path: 'oliver', component: OliverComponent },
+  { path: 'alonso', component: AlonsoComponent },
   { path: '**', component: ContentComponent }
 ];
 
