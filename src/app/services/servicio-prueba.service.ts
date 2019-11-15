@@ -20,7 +20,7 @@ export class ServicioPruebaService {
   }
 
   mostrarPaises() {
-    this.http.get('this.paises')
+    return this.http.get(this.paises);
   }
 
 }
