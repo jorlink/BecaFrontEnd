@@ -12,10 +12,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { FormComponent } from './components/shared/form/form.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { ErickComponent } from './components/shared/erick/erick/erick.component';
 =======
 import { DavidFalconComponent } from './components/shared/david/david-falcon/david-falcon.component';
 >>>>>>> dev__david
+=======
+import { NelsonComponent } from './components/shared/nelson/nelson/nelson.component';
+import { CamiloComponent } from './components/shared/camilo/camilo/camilo.component';
+import { AndyComponent } from './components/shared/andy/andy/andy.component';
+import { SebastianComponent } from './components/shared/sebastian/sebastian/sebastian.component';
+>>>>>>> master
 
 @NgModule({
   declarations: [
@@ -27,10 +34,19 @@ import { DavidFalconComponent } from './components/shared/david/david-falcon/dav
     Pagina2Component,
     FormComponent,
 <<<<<<< HEAD
+<<<<<<< HEAD
     ErickComponent
 =======
     DavidFalconComponent
 >>>>>>> dev__david
+=======
+    AndyComponent,
+    SebastianComponent,
+    NelsonComponent,
+    CamiloComponent,
+    AndyComponent,
+    SebastianComponent
+>>>>>>> master
   ],
   imports: [
     BrowserModule,

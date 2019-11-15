@@ -11,7 +11,8 @@ export class ContentComponent implements OnInit {
   condicional: boolean;
   varTest = 6;
   largoTabla: number;
-  var: string;
+  variable: string;
+  cualquiera: string;
   comentarios: CommentModel[] = [];
 
 
