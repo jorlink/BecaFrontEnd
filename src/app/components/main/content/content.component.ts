@@ -11,11 +11,22 @@ export class ContentComponent implements OnInit {
   condicional: boolean;
   varTest = 6;
   largoTabla: number;
-<<<<<<< HEAD
   variable: string;
+<<<<<<< HEAD
+  cualquiera: string;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
 =======
   cualquiera: string;
->>>>>>> aff5a5206414d913bc6bf5f75120b849f02d06a3
+>>>>>>> dev_seba
+>>>>>>> master
+=======
+  cualquiera: string;
+>>>>>>> e8d0cc4c2955687559bb40d33e473db7e7c34b5f
+>>>>>>> 15eba5bada70155f949b67045bf5290a2205ec88
   comentarios: CommentModel[] = [];
 
 
