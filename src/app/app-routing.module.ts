@@ -11,6 +11,8 @@ import { CristabelComponent } from './components/shared/cristabel/cristabel.comp
 import { NelsonComponent } from './components/shared/nelson/nelson/nelson.component';
 import { RodrigoComponent } from './components/shared/rodrigo/rodrigo/rodrigo.component';
 import { GeregereComponent } from './components/shared/carlos/geregere.component';
+import { HernanComponent } from './components/shared/hernan/hernan/hernan.component';
+import { DavidFalconComponent } from './components/shared/david/david-falcon/david-falcon.component';
 
 const routes: Routes = [
   { path: 'content', component: ContentComponent },
@@ -24,7 +26,8 @@ const routes: Routes = [
   { path: 'rodrigo', component: RodrigoComponent },
   { path: 'carlos', component: GeregereComponent },
   { path: 'cristabel', component: CristabelComponent },
-  { path: 'cristabel', component: CristabelComponent },
+  { path: 'hernan', component: HernanComponent },
+  { path: 'david', component: DavidFalconComponent },
   { path: '**', component: ContentComponent }
 ];
 
