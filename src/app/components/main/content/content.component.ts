@@ -13,12 +13,16 @@ export class ContentComponent implements OnInit {
   largoTabla: number;
   variable: string;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
   cualquiera: string;
 >>>>>>> dev_seba
 >>>>>>> master
+=======
+  cualquiera: string;
+>>>>>>> e8d0cc4c2955687559bb40d33e473db7e7c34b5f
   comentarios: CommentModel[] = [];
 
 

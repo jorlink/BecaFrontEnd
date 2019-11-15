@@ -12,6 +12,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { FormComponent } from './components/shared/form/form.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BastianComponent } from './components/shared/bastian/bastian.component';
+import { NelsonComponent } from './components/shared/nelson/nelson/nelson.component';
+import { CamiloComponent } from './components/shared/camilo/camilo/camilo.component';
+import { AndyComponent } from './components/shared/andy/andy/andy.component';
+import { SebastianComponent } from './components/shared/sebastian/sebastian/sebastian.component';
+import { XimenaComponent } from './components/shared/ximena/ximena/ximena.component';
+import { RodrigoComponent } from './components/shared/rodrigo/rodrigo/rodrigo.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +28,15 @@ import { BastianComponent } from './components/shared/bastian/bastian.component'
     MenuComponent,
     Pagina2Component,
     FormComponent,
-    BastianComponent
+    BastianComponent,
+    AndyComponent,
+    SebastianComponent,
+    NelsonComponent,
+    CamiloComponent,
+    AndyComponent,
+    SebastianComponent,
+    XimenaComponent,
+    RodrigoComponent
   ],
   imports: [
     BrowserModule,
