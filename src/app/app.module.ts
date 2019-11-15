@@ -11,7 +11,11 @@ import { Pagina2Component } from './components/shared/pagina2/pagina2.component'
 import { AppRoutingModule } from './app-routing.module';
 import { FormComponent } from './components/shared/form/form.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+<<<<<<< HEAD
 import { ErickComponent } from './components/shared/erick/erick/erick.component';
+=======
+import { DavidFalconComponent } from './components/shared/david/david-falcon/david-falcon.component';
+>>>>>>> dev__david
 
 @NgModule({
   declarations: [
@@ -22,7 +26,11 @@ import { ErickComponent } from './components/shared/erick/erick/erick.component'
     MenuComponent,
     Pagina2Component,
     FormComponent,
+<<<<<<< HEAD
     ErickComponent
+=======
+    DavidFalconComponent
+>>>>>>> dev__david
   ],
   imports: [
     BrowserModule,
