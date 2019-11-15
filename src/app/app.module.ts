@@ -11,7 +11,11 @@ import { Pagina2Component } from './components/shared/pagina2/pagina2.component'
 import { AppRoutingModule } from './app-routing.module';
 import { FormComponent } from './components/shared/form/form.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+<<<<<<< HEAD
 import { AndyComponent } from './components/shared/andy/andy/andy.component';
+=======
+import { SebastianComponent } from './components/shared/sebastian/sebastian/sebastian.component';
+>>>>>>> dev_seba
 
 @NgModule({
   declarations: [
@@ -22,7 +26,11 @@ import { AndyComponent } from './components/shared/andy/andy/andy.component';
     MenuComponent,
     Pagina2Component,
     FormComponent,
+<<<<<<< HEAD
     AndyComponent
+=======
+    SebastianComponent
+>>>>>>> dev_seba
   ],
   imports: [
     BrowserModule,
