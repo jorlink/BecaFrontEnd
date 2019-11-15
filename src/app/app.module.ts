@@ -12,6 +12,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { FormComponent } from './components/shared/form/form.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RodrigoComponent } from './components/shared/rodrigo/rodrigo/rodrigo.component';
+import { PostserviceService } from './components/shared/rodrigo/services/postservice.service';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { RodrigoComponent } from './components/shared/rodrigo/rodrigo/rodrigo.co
   ],
   providers: [
     ServicioPruebaService,
+    PostserviceService,
     HttpClient
   ],
   bootstrap: [AppComponent]
