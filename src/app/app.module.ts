@@ -11,6 +11,8 @@ import { Pagina2Component } from './components/shared/pagina2/pagina2.component'
 import { AppRoutingModule } from './app-routing.module';
 import { FormComponent } from './components/shared/form/form.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { CristabelComponent } from './components/shared/cristabel/cristabel.component';
+import { BastianComponent } from './components/shared/bastian/bastian.component';
 import { NelsonComponent } from './components/shared/nelson/nelson/nelson.component';
 import { CamiloComponent } from './components/shared/camilo/camilo/camilo.component';
 import { AndyComponent } from './components/shared/andy/andy/andy.component';
@@ -28,6 +30,8 @@ import { GeregereComponent } from './components/shared/geregere/geregere.compone
     MenuComponent,
     Pagina2Component,
     FormComponent,
+    CristabelComponent,
+    BastianComponent,
     AndyComponent,
     SebastianComponent,
     NelsonComponent,
