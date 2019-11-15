@@ -16,6 +16,8 @@ import { CamiloComponent } from './components/shared/camilo/camilo/camilo.compon
 import { AndyComponent } from './components/shared/andy/andy/andy.component';
 import { SebastianComponent } from './components/shared/sebastian/sebastian/sebastian.component';
 import { DavidFalconComponent } from './components/shared/david/david-falcon/david-falcon.component';
+import { XimenaComponent } from './components/shared/ximena/ximena/ximena.component';
+import { RodrigoComponent } from './components/shared/rodrigo/rodrigo/rodrigo.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import { DavidFalconComponent } from './components/shared/david/david-falcon/dav
     CamiloComponent,
     AndyComponent,
     SebastianComponent,
-    DavidFalconComponent
+    DavidFalconComponent,
+    XimenaComponent,
+    RodrigoComponent
   ],
   imports: [
     BrowserModule,
