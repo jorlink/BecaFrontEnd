@@ -13,8 +13,22 @@ import { RodrigoComponent } from './components/shared/rodrigo/rodrigo/rodrigo.co
 import { GeregereComponent } from './components/shared/carlos/geregere.component';
 
 const routes: Routes = [
+<<<<<<< HEAD
+  {
+    path: 'content',
+    component: ContentComponent
+  },
+  {
+    path: 'pagina2',
+    component: Pagina2Component
+  },
+ 
+  {
+    path: '**',
+    component: ContentComponent
+  }
+=======
   { path: 'content', component: ContentComponent },
-  { path: 'pagina2', component: Pagina2Component },
   { path: 'ximena', component: XimenaComponent },
   { path: 'sebastian', component: SebastianComponent },
   { path: 'andy', component: AndyComponent },
@@ -27,6 +41,7 @@ const routes: Routes = [
   { path: 'cristabel', component: CristabelComponent },
   { path: 'cristabel', component: CristabelComponent },
   { path: '**', component: ContentComponent }
+>>>>>>> master
 ];
 
 @NgModule({
