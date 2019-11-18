@@ -25,7 +25,7 @@ this.serv.mostrarPaises().subscribe(resp => {
   }
 
   
-  buscarPais(valor: string) {
+  buscarPais(valor: any) {
     // console.log( valor );
     // tslint:disable-next-line: no-unused-expression
     this.resultados == '';
@@ -44,7 +44,7 @@ this.serv.mostrarPaises().subscribe(resp => {
       console.log(resultado);
      this.mostrar = true; 
 } else {
-  if( valor == ''){
+  if( valor.value == ''){
     console.log('no debi entrar');
     this.ocultar = true;
   }
