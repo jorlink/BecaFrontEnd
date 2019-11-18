@@ -40,5 +40,13 @@ label
     font-size: 20px;
 }
 
+.mapita
+{
+    width:100%;
+    height:400px;
+    background-image: url(images/mapaeveris.png);
+    background-size: cover;
+   
+}
 
 

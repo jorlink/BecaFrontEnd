@@ -30,6 +30,8 @@ import { PostserviceService } from './components/shared/rodrigo/services/postser
 import { HernanComponent } from  './components/shared/hernan/hernan/hernan.component';
 import { FiltrarPipe } from './components/shared/rodrigo/pipe/filtrar.pipe';
 import { DetenidosdesaparecidosService } from './components/shared/camilo/camilo/app-service/servicio1/detenidosdesaparecidos.service';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -64,6 +66,7 @@ import { DetenidosdesaparecidosService } from './components/shared/camilo/camilo
     DavidFalconComponent,
     SebastianComponent,
     FiltrarPipe
+  
   ],
   imports: [
     BrowserModule,
