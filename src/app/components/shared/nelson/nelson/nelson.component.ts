@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-nelson',
@@ -7,13 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NelsonComponent implements OnInit {
 
-  title = 'Mapa Everis';
-  lat = -33.4446063;
-  lng = -70.6587166;
-
   constructor() { }
 
   ngOnInit() {
+
   }
 
 }
