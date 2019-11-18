@@ -42,7 +42,6 @@ label
     font-size: 20px;
 }
 
-<<<<<<< HEAD
 .mapita
 {
     width:100%;
@@ -50,18 +49,12 @@ label
     background-image: url(images/mapaeveris.png);
     background-size: cover;
    
-=======
-agm-map 
-{
-    height: 1px;
 }
 
 .Mapita
 {
-    border: solid;
     width: 400px;
     height: 150px;
->>>>>>> 3697d172f01df874587952aec8c9feedf343e0a9
 }
 
 
