@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { PostserviceService } from '../services/postservice.service';
+import { FiltrarPipe } from '../pipe/filtrar.pipe';
 
 @Component({
   selector: 'app-rodrigo',
@@ -6,10 +8,29 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./rodrigo.component.css']
 })
 export class RodrigoComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
+  condicional:boolean;
+  filtro:string;
+  FilterPost;
+  posts;
+  constructor(
+    public PostService: PostserviceService
+  
+  )
+  {
+    
+    this.condicional =true;
+    
   }
+  ngOnInit() {
 
+    this.PostService.llamame().subscribe((data)=>{
+      this.posts=data;
+      console.log(data);
+  
+
+    });
+    
+  }
+  filtrar(filtro){
+  }
 }

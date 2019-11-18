@@ -21,15 +21,17 @@ this.serv.mostrarPaises().subscribe(resp => {
   this.paises = resp;
   console.log(this.paises)
 });
-
   }
+
+
 
   
   buscarPais(valor: string) {
     // console.log( valor );
     // tslint:disable-next-line: no-unused-expression
     this.resultados == '';
-    const resultado: string[] = [];
+    const resultado: any[] = [];
+    
     this.valor = valor.toLowerCase();
     // this.resultado = '';
     // tslint:disable-next-line: prefer-for-of
@@ -48,11 +50,10 @@ this.serv.mostrarPaises().subscribe(resp => {
     console.log('no debi entrar');
     this.ocultar = true;
   }
-  }
-  
-
-
-  }
-  }
-
 }
+    }
+  }
+}
+
+
+
