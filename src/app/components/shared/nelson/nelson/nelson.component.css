@@ -1,0 +1,44 @@
+.Titulo
+{
+    font-family: inherit;
+    text-align: center;
+}
+
+.cuadroIzq
+{
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 100%;   
+}
+
+.cuadroDer
+{
+    position: relative;
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+
+.tituloForm
+{
+    text-align: center;
+}
+
+.tituloMapa
+{
+    text-align: center;
+}
+
+.formulario
+{
+    text-align: center;
+}
+
+label
+{
+    font-size: 20px;
+}
+
+
+
