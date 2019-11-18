@@ -29,6 +29,7 @@ import { DavidFalconComponent } from './components/shared/david/david-falcon/dav
 import { PostserviceService } from './components/shared/rodrigo/services/postservice.service';
 import { HernanComponent } from  './components/shared/hernan/hernan/hernan.component';
 import { FiltrarPipe } from './components/shared/rodrigo/pipe/filtrar.pipe';
+import { DetenidosdesaparecidosService } from './components/shared/camilo/camilo/app-service/servicio1/detenidosdesaparecidos.service';
 @NgModule({
   declarations: [
     AppComponent,
@@ -74,6 +75,7 @@ import { FiltrarPipe } from './components/shared/rodrigo/pipe/filtrar.pipe';
   providers: [
     ServicioPruebaService,
     PostserviceService,
+    DetenidosdesaparecidosService,
     HttpClient
   ],
   bootstrap: [AppComponent]
