@@ -30,6 +30,9 @@ import { HernanComponent } from  './components/shared/hernan/hernan/hernan.compo
 import { FiltrarPipe } from './components/shared/rodrigo/pipe/filtrar.pipe';
 import { DetenidosdesaparecidosService } from './components/shared/camilo/camilo/app-service/servicio1/detenidosdesaparecidos.service';
 import { GeregereComponent } from './components/shared/carlos/geregere.component';
+import { TablaUsuarioComponent } from './components/shared/prueba/tabla-usuario/tabla-usuario.component';
+import { GaleriaFotosComponent } from './components/shared/prueba/galeria-fotos/galeria-fotos.component';
+import { VerDetalleComponent } from './components/shared/prueba/ver-detalle/ver-detalle.component';
 
 
 @NgModule({
@@ -64,7 +67,10 @@ import { GeregereComponent } from './components/shared/carlos/geregere.component
     AlonsoComponent,
     DavidFalconComponent,
     SebastianComponent,
-    FiltrarPipe
+    FiltrarPipe,
+    TablaUsuarioComponent,
+    GaleriaFotosComponent,
+    VerDetalleComponent
   ],
   imports: [
     BrowserModule,

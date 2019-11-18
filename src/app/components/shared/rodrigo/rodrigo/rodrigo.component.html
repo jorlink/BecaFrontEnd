@@ -15,7 +15,7 @@
         </tr>
         <tr *ngFor="let post of posts| filtrar: FilterPost">
         <td>{{post.title}}</td>
-        <td>{{post.body}}</td>
+        <td>{{post.body | json}}</td>
         </tr>
       </table>
     </div>
