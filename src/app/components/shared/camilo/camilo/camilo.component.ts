@@ -7,9 +7,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CamiloComponent implements OnInit {
 
-  constructor() { }
+  title = 'demo131';
+  users: any[] = [];
 
+  constructor(protected userService: UserService) { }
+
+  
   ngOnInit() {
+
+    this.userService.getUsers()
+    .subscribe(
+      (data) => { // si funca
+        this.users = data['results'];
+      },
+      (error) => {
+        console.error(error);
+      }
+    );
   }
 
 }
