@@ -27,8 +27,8 @@ import { GeregereComponent } from './components/shared/carlos/geregere.component
 import { AlonsoComponent } from './components/shared/alonso/alonso.component';
 import { DavidFalconComponent } from './components/shared/david/david-falcon/david-falcon.component';
 import { PostserviceService } from './components/shared/rodrigo/services/postservice.service';
-import { HernanComponent } from './components/shared/hernan/hernan/hernan.component';
-
+import { HernanComponent } from  './components/shared/hernan/hernan/hernan.component';
+import { FiltrarPipe } from './components/shared/rodrigo/pipe/filtrar.pipe';
 @NgModule({
   declarations: [
     AppComponent,
@@ -61,7 +61,8 @@ import { HernanComponent } from './components/shared/hernan/hernan/hernan.compon
     HernanComponent,
     AlonsoComponent,
     DavidFalconComponent,
-    SebastianComponent
+    SebastianComponent,
+    FiltrarPipe
   ],
   imports: [
     BrowserModule,
