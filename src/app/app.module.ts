@@ -72,10 +72,7 @@ import { DetenidosdesaparecidosService } from './components/shared/camilo/camilo
     HttpClientModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule,
-    AgmCoreModule
-    
-   
+    ReactiveFormsModule
   ],
   providers: [
     ServicioPruebaService,

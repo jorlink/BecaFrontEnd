@@ -1,7 +1,10 @@
-<p>LISTOOOOOOOOOOOOO</p>/p>
+<h1>LISTA DE DETENIDOS Y DESAPARECIDOS 2019 - CHILE </h1>
 <br>
 <div *ngFor='let user of users'>
-    <img [src]="user.picture.medium">
-    <h2>{{ user.name.first | uppercase }}</h2>
-    <p>{{ user.email }}</p>
+    <img [src]="user.picture.large">
+    <h2>{{ user.name.first +" "+ user.name.last | uppercase }}</h2>
+    <p>EDAD: {{user.dob.age}}</p>
+    <p>INFORMAR A :{{ user.login.username +"@yahoo.es" }}</p>
 </div>
+
+
