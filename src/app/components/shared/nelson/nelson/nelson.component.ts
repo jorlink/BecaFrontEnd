@@ -7,8 +7,15 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 })
 export class NelsonComponent implements OnInit {
 
+<<<<<<< HEAD
   @ViewChild('map') mapElement: any;
   map: google.maps.Map;
+=======
+  title = 'Mapa Everis';
+  lat = -33.4446063;
+  lng = -70.6587166;
+
+>>>>>>> 3697d172f01df874587952aec8c9feedf343e0a9
   constructor() { }
 
   ngOnInit() {
