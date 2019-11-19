@@ -1,6 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output } from '@angular/core';
 import { PostserviceService } from '../services/postservice.service';
+import { User } from '../models/user';
 import { FiltrarPipe } from '../pipe/filtrar.pipe';
+import { Posts } from '../models/posts';
 
 @Component({
   selector: 'app-rodrigo',
@@ -11,10 +13,10 @@ export class RodrigoComponent implements OnInit {
   condicional:boolean;
   filtro:string;
   FilterPost;
-  posts;
+  posts:Posts;
+  user:User;
   constructor(
     public PostService: PostserviceService
-  
   )
   {
     
@@ -23,7 +25,7 @@ export class RodrigoComponent implements OnInit {
   }
   ngOnInit() {
 
-    this.PostService.llamame().subscribe((data)=>{
+    this.PostService.Posts().subscribe((data)=>{
       this.posts=data;
       console.log(data);
   
@@ -31,6 +33,17 @@ export class RodrigoComponent implements OnInit {
     });
     
   }
-  filtrar(filtro){
-  }
+  EnviarID(params){
+    this.PostService.BuscarUser(params).subscribe((data)=>{
+      this.user=data[0];
+      console.log(this.user);
+  })
+   }
+   FiltrarId(event){
+     console.log(event);
+     this.posts=(event);
+     
+   }
+
+
 }

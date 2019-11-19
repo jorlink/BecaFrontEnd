@@ -29,6 +29,9 @@ import { DavidFalconComponent } from './components/shared/david/david-falcon/dav
 import { PostserviceService } from './components/shared/rodrigo/services/postservice.service';
 import { HernanComponent } from  './components/shared/hernan/hernan/hernan.component';
 import { FiltrarPipe } from './components/shared/rodrigo/pipe/filtrar.pipe';
+import { DetalleComponent } from './components/shared/rodrigo/detalle/detalle.component';
+import { FiltrosComponent } from './components/shared/rodrigo/filtros/filtros.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -62,7 +65,10 @@ import { FiltrarPipe } from './components/shared/rodrigo/pipe/filtrar.pipe';
     AlonsoComponent,
     DavidFalconComponent,
     SebastianComponent,
-    FiltrarPipe
+    FiltrarPipe,
+    DetalleComponent,
+    FiltrosComponent,
+  
   ],
   imports: [
     BrowserModule,
