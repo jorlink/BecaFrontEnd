@@ -26,16 +26,17 @@ import { OliverComponent } from './components/shared/oliver/oliver.component';
 import { AlonsoComponent } from './components/shared/alonso/alonso.component';
 import { DavidFalconComponent } from './components/shared/david/david-falcon/david-falcon.component';
 import { PostserviceService } from './components/shared/rodrigo/services/postservice.service';
-import { HernanComponent } from  './components/shared/hernan/hernan/hernan.component';
+import { HernanComponent } from './components/shared/hernan/hernan/hernan.component';
 import { FiltrarPipe } from './components/shared/rodrigo/pipe/filtrar.pipe';
-import { DetenidosdesaparecidosService } from './components/shared/camilo/camilo/app-service/servicio1/detenidosdesaparecidos.service';
+import { DetalleComponent } from './components/shared/rodrigo/detalle/detalle.component';
+import { FiltrosComponent } from './components/shared/rodrigo/filtros/filtros.component';
 import { GeregereComponent } from './components/shared/carlos/geregere.component';
 import { TablaUsuarioComponent } from './components/shared/prueba/tabla-usuario/tabla-usuario.component';
 import { GaleriaFotosComponent } from './components/shared/prueba/galeria-fotos/galeria-fotos.component';
-import { VerMasComponent } from './components/shared/camilo/ver-mas/ver-mas.component';
 import { VerDetalleComponent } from './components/shared/prueba/ver-detalle/ver-detalle.component';
-
-
+import { ComponentOcultoComponent } from './components/shared/nelson/component-oculto/component-oculto.component';
+import { FiltradorComponent } from './components/shared/nelson/filtrador/filtrador.component';
+import { DetenidosdesaparecidosService } from './components/shared/camilo/camilo/app-service/servicio1/detenidosdesaparecidos.service';
 
 @NgModule({
   declarations: [
@@ -63,17 +64,20 @@ import { VerDetalleComponent } from './components/shared/prueba/ver-detalle/ver-
     XimenaComponent,
     LorenaComponent,
     RodrigoComponent,
-    GeregereComponent,
     OliverComponent,
     HernanComponent,
     AlonsoComponent,
     DavidFalconComponent,
     SebastianComponent,
     FiltrarPipe,
+    DetalleComponent,
+    FiltrosComponent,
+    GeregereComponent,
     TablaUsuarioComponent,
     GaleriaFotosComponent,
     VerDetalleComponent,
-    VerMasComponent
+    ComponentOcultoComponent,
+    FiltradorComponent
   ],
   imports: [
     BrowserModule,
@@ -85,8 +89,8 @@ import { VerDetalleComponent } from './components/shared/prueba/ver-detalle/ver-
   providers: [
     ServicioPruebaService,
     PostserviceService,
-    DetenidosdesaparecidosService,
-    HttpClient
+    HttpClient,
+    DetenidosdesaparecidosService
   ],
   bootstrap: [AppComponent]
 })

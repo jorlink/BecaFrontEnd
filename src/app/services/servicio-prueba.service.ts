@@ -6,6 +6,7 @@ import { HttpClient } from '@angular/common/http';
 export class ServicioPruebaService {
   urlAObtener: string;
   paises: string;
+  fitroID: number;
 
   constructor(
     private http: HttpClient
@@ -29,6 +30,10 @@ export class ServicioPruebaService {
 
   mostrarPaises() {
     return this.http.get(this.paises);
+  }
+
+  filtrar(fitroID) {
+    return this.http.get(this.urlAObtener + 'users?id=' + fitroID );
   }
 
 }
