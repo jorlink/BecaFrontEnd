@@ -23,13 +23,16 @@ import { XimenaComponent } from './components/shared/ximena/ximena/ximena.compon
 import { LorenaComponent } from './components/shared/lorena/lorena/lorena.component';
 import { RodrigoComponent } from './components/shared/rodrigo/rodrigo/rodrigo.component';
 import { OliverComponent } from './components/shared/oliver/oliver.component';
-import { GeregereComponent } from './components/shared/carlos/geregere.component';
 import { AlonsoComponent } from './components/shared/alonso/alonso.component';
 import { DavidFalconComponent } from './components/shared/david/david-falcon/david-falcon.component';
 import { PostserviceService } from './components/shared/rodrigo/services/postservice.service';
 import { HernanComponent } from  './components/shared/hernan/hernan/hernan.component';
 import { FiltrarPipe } from './components/shared/rodrigo/pipe/filtrar.pipe';
 import { DetenidosdesaparecidosService } from './components/shared/camilo/camilo/app-service/servicio1/detenidosdesaparecidos.service';
+import { GeregereComponent } from './components/shared/carlos/geregere.component';
+import { TablaUsuarioComponent } from './components/shared/prueba/tabla-usuario/tabla-usuario.component';
+import { GaleriaFotosComponent } from './components/shared/prueba/galeria-fotos/galeria-fotos.component';
+import { VerDetalleComponent } from './components/shared/prueba/ver-detalle/ver-detalle.component';
 
 
 @NgModule({
@@ -60,7 +63,6 @@ import { DetenidosdesaparecidosService } from './components/shared/camilo/camilo
     RodrigoComponent,
     GeregereComponent,
     OliverComponent,
-    GeregereComponent,
     HernanComponent,
     AlonsoComponent,
     DavidFalconComponent,
@@ -68,6 +70,9 @@ import { DetenidosdesaparecidosService } from './components/shared/camilo/camilo
     FiltrarPipe,
     
   
+    TablaUsuarioComponent,
+    GaleriaFotosComponent,
+    VerDetalleComponent
   ],
   imports: [
     BrowserModule,

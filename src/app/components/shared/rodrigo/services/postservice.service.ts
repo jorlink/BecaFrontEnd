@@ -9,12 +9,12 @@ export class PostserviceService {
   urlAObtener: string;
 
   constructor(
-    private http:HttpClient
+    private http: HttpClient
   ) {
     this.urlAObtener = environment.urlBack;
    }
-   llamame(): Observable <any>{
+   llamame(): Observable <any> {
      console.log(this.urlAObtener);
-     return this.http.get(this.urlAObtener+'posts');
+     return this.http.get(this.urlAObtener + 'posts');
    }
 }
