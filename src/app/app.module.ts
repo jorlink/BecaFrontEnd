@@ -33,6 +33,7 @@ import { GeregereComponent } from './components/shared/carlos/geregere.component
 import { TablaUsuarioComponent } from './components/shared/prueba/tabla-usuario/tabla-usuario.component';
 import { GaleriaFotosComponent } from './components/shared/prueba/galeria-fotos/galeria-fotos.component';
 import { VerDetalleComponent } from './components/shared/prueba/ver-detalle/ver-detalle.component';
+import { DetallePersonaComponent } from './components/shared/lorena/detalle-persona/detalle-persona.component';
 
 
 @NgModule({
@@ -70,7 +71,8 @@ import { VerDetalleComponent } from './components/shared/prueba/ver-detalle/ver-
     FiltrarPipe,
     TablaUsuarioComponent,
     GaleriaFotosComponent,
-    VerDetalleComponent
+    VerDetalleComponent,
+    DetallePersonaComponent
   ],
   imports: [
     BrowserModule,

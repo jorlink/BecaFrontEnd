@@ -1,3 +1,75 @@
-<video controls preload >
-        <source src="src/assets/video/video.mp4" type="video/mp4"> 
-    </video>
+
+    <div id="banner">
+        <img src="./assets/imgLore/3f.jpg" />
+        <div class="contenedor">
+        <h2>Bienvenidos a la empresa Lamda</h2>
+        <p>"Entendemos en profundidad por lo que pasan los empresarios y emprendedores que ven sus cobros extendidos en el tiempo. </p>
+        <p>Los servicios, las empresas, los proyectos necesitan capitales para mantenerse en pie.</p><p> Nosotros somos claves en apoyar y acompañar su desarrollo."</p>
+        </div>
+    </div>
+    <h1>Buscar Datos</h1>
+    <table class="busqueda">
+            <tr>
+                <th><p>ID:</p>  
+                    <input name="id" placeholder="id"></th>
+                <th><p>NOMBRE:</p>
+                    <input name="text" placeholder="nombre"></th>
+                <th><p>EMAIL:</p>
+                    <input name="email" placeholder="email"></th>
+                <th><button (click)="BusquedaID(user.company)">Buscar Dato</button></th>
+            </tr>     
+    </table>
+    <h2>Datos personal de la empresa</h2>
+    <table>
+        <thead>
+            <tr>
+                <th >ID</th>
+                <th >NOMBRE</th>
+                <th >EMAIL</th>
+                <th>DIRECCION</th>
+                <th >CIUDAD</th>
+                <th>TELEFONO</th>
+                <th >WEB</th>
+                <th>INFORMACION</th>
+              </tr>
+        </thead>
+        <tr *ngFor="let user of detallePersonal">
+          <td>{{user.id}}</td>
+          <td>{{user.name}}</td>
+          <td>{{user.email}}</td>
+          <td>{{user.address.city}} {{user.address.street}} {{user.address.suite}} {{user.address.zipcode}}</td>
+          <td>{{user.username}}</td>
+          <td>{{user.phone}}</td>
+          <td>{{user.website}}</td>
+          <td><button (click)="EnviarInfoEmpleados(user.company)">Mostrar</button></td>
+        </tr>
+      </table>
+      <div class="detalle">
+            <app-detalle-persona [detalle]="detalles"></app-detalle-persona>
+      </div>
+    <div id="infromacion">
+        <h2>Poporcionar tipo de información y asistencia a usuarios</h2>
+        <p>¿Cual es la mejor forma de atención para usted?</p>
+        <a href="#">Leer más</a>
+    </div>  
+    <div id="emp">
+        <h3>Nuestro holding de empresas en el país. </h3>
+        <div class="contenedor">
+           <div class="info-emp">
+                <img src="./assets/imgLore/f4.jpg" alt="">
+               <h4>Santiago</h4>
+            </div>
+            <div class="info-emp">
+                <img src="./assets/imgLore/f5.jpg" alt="">
+               <h4>Temuco</h4>
+            </div>
+            <div class="info-emp">
+                <img src="./assets/imgLore/f6.jpg" alt="">
+               <h4>Valdivia</h4>
+            </div>
+            <div class="info-emp">
+                <img src="./assets/imgLore/f7.jpg" alt="">
+               <h4>Iquique</h4>
+            </div>
+         </div>
+    </div>
