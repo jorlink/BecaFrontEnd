@@ -13,8 +13,20 @@ export class PostserviceService {
   ) {
     this.urlAObtener = environment.urlBack;
    }
-   llamame(): Observable <any> {
+   Posts(): Observable <any>{
      console.log(this.urlAObtener);
      return this.http.get(this.urlAObtener + 'posts');
    }
+
+   BuscarUser(param):Observable <any>{
+     return this.http.get(this.urlAObtener+'users?id='+param);
+
+   }
+
+   FiltroID(id):Observable <any>{
+
+     return this.http.get(this.urlAObtener+'posts?userId='+id);
+   }
+   
+
 }

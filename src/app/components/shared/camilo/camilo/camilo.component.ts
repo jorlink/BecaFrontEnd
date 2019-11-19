@@ -10,6 +10,8 @@ export class CamiloComponent implements OnInit {
 
   title = 'demo131';
   users: any[] = [];
+  vermas;
+
 
   constructor(
   protected detenidosdesaparecidosService: DetenidosdesaparecidosService
@@ -19,13 +21,18 @@ export class CamiloComponent implements OnInit {
 
     this.detenidosdesaparecidosService.getUsers()
     .subscribe(
-      (data) => { // Success
+      (data) => {
         this.users = data['results'];
       },
       (error) => {
         console.error(error);
       }
     );
+  }
+
+  VerInfo(params){
+    console.log(params)
+    this.vermas = params;
   }
 
 }

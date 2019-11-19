@@ -1,10 +1,18 @@
 <h1>LISTA DE DETENIDOS Y DESAPARECIDOS 2019 - CHILE </h1>
 <br>
-<div *ngFor='let user of users'>
-    <img [src]="user.picture.large">
-    <h2>{{ user.name.first +" "+ user.name.last | uppercase }}</h2>
-    <p>EDAD: {{user.dob.age}}</p>
-    <p>INFORMAR A :{{ user.login.username +"@yahoo.es" }}</p>
+<div>
+    <div class="personas" >
+        <table class="taula">
+                <tr *ngFor='let user of users'>
+                    <td><img [src]="user.picture.large"></td>
+                    <td><h2>{{ user.name.first +" "+ user.name.last | uppercase }}</h2></td>
+                    <td><p>INFORMAR A :{{ user.login.username +"@yahoo.es" }}</p></td>
+                    <td><button (click)="VerInfo(user.registered)"> Mas Info </button></td>  
+                </tr>
+                
+        </table>
+    </div>
+    <div class="notoy">
+            <app-ver-mas [verMas]="vermas"></app-ver-mas>    
+    </div>
 </div>
-
-
