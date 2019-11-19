@@ -1,0 +1,28 @@
+<table class="tg sizeTable">
+  <tr>
+    <th >ID</th>
+    <th >NOMBRE</th>
+    <th >Email</th>
+    <th>DIreccion</th>
+    <th >Username</th>
+    <th>Telefono</th>
+    <th >Web</th>
+    <th> acciones</th>
+  </tr>
+  <tr *ngFor="let user of datosUsuarios">
+    <td class="tg-pmnd">{{user.id}}</td>
+    <td class="tg-pmnd">{{user.name}}</td>
+    <td class="tg-pmnd">{{user.email}}</td>
+    <td class="tg-pmnd">{{user.address.city}} {{user.address.street}} {{user.address.suite}} {{user.address.zipcode}}</td>
+    <td class="tg-pmnd">{{user.username}}</td>
+    <td class="tg-pmnd">{{user.phone}}</td>
+    <td class="tg-pmnd">{{user.website}}</td>
+    <td><button (click)="EnviarInfoVer(user.company)"> Ver </button></td>
+  </tr>
+</table>
+
+<div class="sizeDetalle">
+  <app-ver-detalle [detallitos]="detalles"></app-ver-detalle>
+</div>
+
+<div style="clear:both"></div>

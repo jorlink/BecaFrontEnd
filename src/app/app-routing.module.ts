@@ -18,6 +18,8 @@ import { DavidFalconComponent } from './components/shared/david/david-falcon/dav
 import { OliverComponent } from './components/shared/oliver/oliver.component';
 import { ErickComponent } from './components/shared/erick/erick/erick.component';
 import { FabianComponent } from './components/shared/fabian/fabian/fabian.component';
+import { TablaUsuarioComponent } from './components/shared/prueba/tabla-usuario/tabla-usuario.component';
+import { GaleriaFotosComponent } from './components/shared/prueba/galeria-fotos/galeria-fotos.component';
 
 const router: Routes = [
   { path: 'content', component: ContentComponent },
@@ -37,6 +39,8 @@ const router: Routes = [
   { path: 'bastian', component: BastianComponent},
   { path: 'erick', component: ErickComponent},
   { path: 'fabian', component: FabianComponent},
+  { path: 'tablaUser', component: TablaUsuarioComponent },
+  { path: 'galeriaFotos', component: GaleriaFotosComponent },
   { path: '**', component: ContentComponent }
 ];
 

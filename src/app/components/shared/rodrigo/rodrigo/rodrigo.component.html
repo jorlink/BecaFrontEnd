@@ -6,13 +6,16 @@
         
         LATAM está conformada por aproximadamente 45 mil empleados y su flota consiste en 287 aviones, sin incluir algunas naves ya encargadas y aún no entregadas.</p>
 </div>
+<div>
+<p>Buscar por titulo:</p><input type="text"  name="Buscar" [(ngModel)]="FilterPost">
 <table>
         <tr>
           <th>Titulo</th>
           <th>Cuerpo</th>
-          </tr>
-        <tr *ngFor="let post of posts">
+        </tr>
+        <tr *ngFor="let post of posts| filtrar: FilterPost">
         <td>{{post.title}}</td>
-        <td>{{post.body}}</td>
+        <td>{{post.body | json}}</td>
         </tr>
       </table>
+    </div>

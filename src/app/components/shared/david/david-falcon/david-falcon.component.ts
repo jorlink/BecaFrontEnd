@@ -8,7 +8,7 @@ import { ServicioPruebaService } from '../../../../services/servicio-prueba.serv
 })
 export class DavidFalconComponent implements OnInit {
 paises: any;
-resultado: string[] = [];
+resultados: any;
 mostrar = false;
 valor: string;
 ocultar = false;
@@ -25,24 +25,31 @@ this.serv.mostrarPaises().subscribe(resp => {
   }
 
   
-  buscarPais(valor: string) {
+  buscarPais(valor: any) {
     // console.log( valor );
-
+    // tslint:disable-next-line: no-unused-expression
+    this.resultados == '';
+    let resultado: string[] = [];
     this.valor = valor.toLowerCase();
-
+    // this.resultado = '';
     // tslint:disable-next-line: prefer-for-of
     for ( let i = 0; i < this.paises.length; i++) {
     const pais = this.paises[i];
     const nombre = pais.name.toLowerCase();
     // console.log(nombre);
     if (nombre.indexOf(this.valor) >= 0 ) {
-     this.resultado.push(pais);
-     console.log(this.resultado);
+
+     resultado.push(pais);
+   this.resultados = resultado;
+      console.log(resultado);
      this.mostrar = true; 
 } else {
-  console.log('no debi entrar');
-  this.ocultar = true;
-}
+  if( valor.value == ''){
+    console.log('no debi entrar');
+    this.ocultar = true;
+  }
+  }
+  
 
 
   }
