@@ -65,7 +65,8 @@ import { DetenidosdesaparecidosService } from './components/shared/camilo/camilo
     AlonsoComponent,
     DavidFalconComponent,
     SebastianComponent,
-    FiltrarPipe
+    FiltrarPipe,
+    
   
   ],
   imports: [

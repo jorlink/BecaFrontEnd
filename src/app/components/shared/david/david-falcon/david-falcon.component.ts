@@ -53,6 +53,11 @@ this.serv.mostrarPaises().subscribe(resp => {
 }
     }
   }
+
+  mostrarDetalles(bandera) {
+    console.log(bandera)
+  
+  }
 }
 
 
