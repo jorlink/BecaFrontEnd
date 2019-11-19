@@ -1,6 +1,7 @@
 
 
 <h1 class="Titulo">Pagina Nelson</h1>
+<app-filtrador></app-filtrador>
 <div>
 
     <div class="cuadroIzq">
@@ -39,9 +40,44 @@
     
       <div>
         <div  class="mapita">
-         
+          <div class="geregere">
+              <app-geregere></app-geregere>
+          </div>
+            
         </div>
       </div>
       
     </div>
+
+    <div style="clear:both"></div>
+
+    <div>
+      <table class="tg sizeTable">
+        <tr>
+          <th >ID</th>
+          <th >NOMBRE</th>
+          <th >Email</th>
+          <th>DIreccion</th>
+          <th >Username</th>
+          <th>Telefono</th>
+          <th >Web</th>
+          <th> acciones</th>
+        </tr>
+        <tr *ngFor="let user of users">
+          <td class="tg-pmnd">{{user.id}}</td>
+          <td class="tg-pmnd">{{user.name}}</td>
+          <td class="tg-pmnd">{{user.email}}</td>
+          <td class="tg-pmnd">{{user.address.city}} {{user.address.street}} {{user.address.suite}} {{user.address.zipcode}}</td>
+          <td class="tg-pmnd">{{user.username}}</td>
+          <td class="tg-pmnd">{{user.phone}}</td>
+          <td class="tg-pmnd">{{user.website}}</td>
+          <td><button (click)="VerInfo(user.company)"> Ver </button></td>
+        </tr>
+      </table>
+    </div>
+    <div>
+        <app-component-oculto [detalleCompany]="companyDetalle"></app-component-oculto>
+    </div>
+  </div>
+    
 <!-- <script src=”http://maps.googleapis.com/maps/api/js?key=AIzaSyDKoBw7whEROAY6-didgM2-mI4dFiIDYdI"></script> -->

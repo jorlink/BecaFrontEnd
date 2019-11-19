@@ -33,7 +33,8 @@ import { GeregereComponent } from './components/shared/carlos/geregere.component
 import { TablaUsuarioComponent } from './components/shared/prueba/tabla-usuario/tabla-usuario.component';
 import { GaleriaFotosComponent } from './components/shared/prueba/galeria-fotos/galeria-fotos.component';
 import { VerDetalleComponent } from './components/shared/prueba/ver-detalle/ver-detalle.component';
-
+import { ComponentOcultoComponent } from './components/shared/nelson/component-oculto/component-oculto.component';
+import { FiltradorComponent } from './components/shared/nelson/filtrador/filtrador.component';
 
 @NgModule({
   declarations: [
@@ -70,7 +71,9 @@ import { VerDetalleComponent } from './components/shared/prueba/ver-detalle/ver-
     FiltrarPipe,
     TablaUsuarioComponent,
     GaleriaFotosComponent,
-    VerDetalleComponent
+    VerDetalleComponent,
+    ComponentOcultoComponent,
+    FiltradorComponent
   ],
   imports: [
     BrowserModule,

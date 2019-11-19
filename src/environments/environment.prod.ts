@@ -1,5 +1,6 @@
 export const environment = {
   production: true,
   urlBack: '',
-  url: ''
+  url: '',
+  fitroID: ''
 };
