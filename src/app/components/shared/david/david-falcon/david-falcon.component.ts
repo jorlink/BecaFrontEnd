@@ -12,6 +12,7 @@ resultados: any;
 mostrar = false;
 valor: string;
 ocultar = false;
+bandera : any;
 
   constructor(private serv: ServicioPruebaService) { }
 
@@ -55,7 +56,8 @@ this.serv.mostrarPaises().subscribe(resp => {
   }
 
   mostrarDetalles(bandera) {
-    console.log(bandera)
+    console.log(bandera);
+    this.bandera = bandera;
   
   }
 }

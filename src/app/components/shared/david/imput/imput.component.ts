@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, imput } from '@angular/core';
 
 @Component({
   selector: 'app-imput',
@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ImputComponent implements OnInit {
 
+@imput() pais: any;
   constructor() { }
 
   ngOnInit() {
