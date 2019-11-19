@@ -11,9 +11,8 @@ export class FiltrarPipe implements PipeTransform {
     for(let post of value){
       if(post.title.toLowerCase().indexOf(args.toLowerCase()) > -1){
         resultPosts.push(post);
-
-      };
-    };
+      }
+    }
     return resultPosts;
   }
 

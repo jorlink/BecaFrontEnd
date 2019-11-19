@@ -1,2 +1,66 @@
-<p>geregere gunciona</p>
 <div align="center"><img src="assets/jebus.gif"></div>
+<!--<script type="text/javascript">
+  function validar(f) {
+  var ok = true;
+  var msg = "Adalid debes copletar los siguientes campos: >:(\n";
+  if(f.elements[0].value == "")
+  {
+    msg += "- Nombre\n";
+    ok = false;
+  }
+  if(f.elements[1].value == "")
+  {
+    msg += "- Apellido Paterno\n";
+    ok = false;
+  }
+  if(f.elements[2].value == "")
+  {
+    msg += "- Apellido Materno\n";
+    ok = false;
+  }
+  if(f.elements[3].value == "")
+  {
+    msg += "- Correo Electronico\n";
+    ok = false;
+  }
+
+  if(ok == false)
+    alert(msg);
+  return ok;
+}
+</script>-->
+
+
+<!--<div><img src="propaganda.jpg" align="center" style="padding-top: 15px;border-radius: 40px; width: auto;"></div>-->
+
+<div style="padding-top: 20px; padding-bottom: 20px;">
+	<table align="center">
+		<form id="formRecruit" action="" method="get"> <!--onsubmit="return validar(this)">-->
+		  <label>Nombre:</label>
+          <input type="text" id="nombre" placeholder="Introduce Nombre"><br>
+          <label>Apellido Paterno:</label>
+          <input type="text" id="primerApe" placeholder="Introduce Apellido Paterno"><br>
+          <label>Apellido Materno:</label>
+          <input type="text" id="segunApe" placeholder="Introduce Apellido Materno"><br>        
+          <label>E-Mail:</label><input type="email" name="correo" placeholder="Ingrese Correo"><br>
+          <label>Sexo:</label>
+          <input type="radio" name="sex" id="sex">Masculino
+          <input type="radio" name="sex" id="sex">Femenino<br>
+          <!--
+          <label>Fecha Nacimiento:</label>
+          <input type="date" id="fechaNac" style="width: 170px"><br>
+          <label>Un combobox:</label>
+          <select style="width: 170px">
+          <option value="perrito">Perrito</option>
+          <option value="gatito">Gatito</option>
+          <option value="tortuguita">Tartaruga</option>
+          <option value="ratoncito">Laucha</option>
+          </select><br>-->
+          <br>
+          <input type="submit" name="enviar" value="Lok`tar"><br>
+
+          <input type="reset" value="Borrar">
+	</form> 
+</table>
+	
+</div>

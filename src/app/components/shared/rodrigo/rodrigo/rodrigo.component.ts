@@ -1,7 +1,6 @@
 import { Component, OnInit, Output } from '@angular/core';
 import { PostserviceService } from '../services/postservice.service';
 import { User } from '../models/user';
-import { FiltrarPipe } from '../pipe/filtrar.pipe';
 import { Posts } from '../models/posts';
 
 @Component({
@@ -10,8 +9,8 @@ import { Posts } from '../models/posts';
   styleUrls: ['./rodrigo.component.css']
 })
 export class RodrigoComponent implements OnInit {
-  condicional:boolean;
-  filtro:string;
+  condicional: boolean;
+  filtro: string;
   FilterPost;
   posts:Posts;
   user:User;
@@ -28,10 +27,7 @@ export class RodrigoComponent implements OnInit {
     this.PostService.Posts().subscribe((data)=>{
       this.posts=data;
       console.log(data);
-  
-
     });
-    
   }
   EnviarID(params){
     this.PostService.BuscarUser(params).subscribe((data)=>{

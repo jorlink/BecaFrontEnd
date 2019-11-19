@@ -19,6 +19,14 @@ export class ServicioPruebaService {
     return this.http.get(this.urlAObtener + 'comments');
   }
 
+  obtenerFotos() {
+    return this.http.get(this.urlAObtener + 'photos');
+  }
+
+  obtenerUsuarios() {
+    return this.http.get(this.urlAObtener + 'users');
+  }
+
   mostrarPaises() {
     return this.http.get(this.paises);
   }

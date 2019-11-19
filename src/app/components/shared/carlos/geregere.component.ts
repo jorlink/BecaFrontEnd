@@ -11,5 +11,4 @@ export class GeregereComponent implements OnInit {
 
   ngOnInit() {
   }
-
 }
