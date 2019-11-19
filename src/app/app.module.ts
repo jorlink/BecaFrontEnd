@@ -37,6 +37,7 @@ import { VerDetalleComponent } from './components/shared/prueba/ver-detalle/ver-
 import { ComponentOcultoComponent } from './components/shared/nelson/component-oculto/component-oculto.component';
 import { FiltradorComponent } from './components/shared/nelson/filtrador/filtrador.component';
 import { DetenidosdesaparecidosService } from './components/shared/camilo/camilo/app-service/servicio1/detenidosdesaparecidos.service';
+import { VerMasComponent } from './components/shared/camilo/ver-mas/ver-mas.component';
 
 @NgModule({
   declarations: [
@@ -77,7 +78,8 @@ import { DetenidosdesaparecidosService } from './components/shared/camilo/camilo
     GaleriaFotosComponent,
     VerDetalleComponent,
     ComponentOcultoComponent,
-    FiltradorComponent
+    FiltradorComponent,
+    VerMasComponent
   ],
   imports: [
     BrowserModule,
