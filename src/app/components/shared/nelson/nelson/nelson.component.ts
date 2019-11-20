@@ -4,11 +4,17 @@ import { ServicioPruebaService } from '../../../../services/servicio-prueba.serv
 @Component({
   selector: 'app-nelson',
   templateUrl: './nelson.component.html',
-  styleUrls: ['./nelson.component.css']
+  styleUrls: ['./nelson.component.css'],
+
+
 })
 export class NelsonComponent implements OnInit {
   users;
   companyDetalle;
+  show: boolean = false;
+  auxiliar;
+  valorInput;
+
   constructor(private servicioPruebaService: ServicioPruebaService) { }
 
   ngOnInit() {
@@ -22,8 +28,19 @@ export class NelsonComponent implements OnInit {
     
   VerInfo(params)
   {
-    console.log(params);
-    this.companyDetalle = params;
+    
+    if(this.auxiliar != params || this.show == false)
+    {
+      this.show = true;
+      console.log(params);
+      this.companyDetalle = params;
+    } 
+    else
+    {
+      this.show = false;
+    }
+
+    this.auxiliar = params;
   }
 
 }

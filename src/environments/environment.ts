@@ -6,6 +6,5 @@
 export const environment = {
   production: false,
   urlBack: 'http://jsonplaceholder.typicode.com/',
-  url: 'https://restcountries.eu/rest/v2/lang/es',
-  fitroID: ''
+  url: 'https://restcountries.eu/rest/v2/lang/es'
 };

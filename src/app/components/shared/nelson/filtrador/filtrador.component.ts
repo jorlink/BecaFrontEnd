@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ServicioPruebaService } from '../../../../services/servicio-prueba.service';
 
 @Component({
   selector: 'app-filtrador',
@@ -6,14 +7,25 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./filtrador.component.css']
 })
 export class FiltradorComponent implements OnInit {
+  aux;
+  users;
+  
 
-  constructor() { }
+  constructor(protected servicioPruebaService: ServicioPruebaService) { }
 
   ngOnInit() {
+   
   }
 
-  RescatarDatos()
-  {
-    
+  
+RescatarDatos(idDatos: string){
+  this.aux = idDatos;
+    const response = this.servicioPruebaService.filtrar(this.aux).subscribe(
+      (data) => {
+        console.log(data);
+        this.users = data;
+      }
+    );
   }
+ 
 }

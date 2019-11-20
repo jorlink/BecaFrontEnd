@@ -1,8 +1,9 @@
-<div class="filtrador">
+<div class="filtrador" >
   <form>
-      <p> Ingrese ID</p> 
-      <input type="text" id="idDatos">
-      <button (click)="RescatarDatos();"> Buscar</button>
+       
+    <p> Ingrese ID: <input type="text" placeholder="ID debe ser del 1 al 10" #idDatos > 
+      <button (click)="RescatarDatos(idDatos.value);"> Buscar</button> </p>
+      
   </form>
     
 </div>
