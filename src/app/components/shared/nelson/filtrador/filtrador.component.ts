@@ -10,7 +10,6 @@ export class FiltradorComponent implements OnInit {
   aux;
   users;
   
-
   constructor(protected servicioPruebaService: ServicioPruebaService) { }
 
   ngOnInit() {
