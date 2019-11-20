@@ -9,9 +9,12 @@ import { ServicioPruebaService } from '../../../../services/servicio-prueba.serv
 export class FiltradorComponent implements OnInit {
   aux;
   users;
-  
-  constructor(protected servicioPruebaService: ServicioPruebaService) { }
+  auxiliar;
+  show;
+  companyDetalle;
 
+  constructor(protected servicioPruebaService: ServicioPruebaService) { }
+  
   ngOnInit() {
    
   }
@@ -24,7 +27,24 @@ RescatarDatos(idDatos: string){
         console.log(data);
         this.users = data;
       }
-    );
+    );  
+  }
+
+  VerInfo(params)
+  {
+    
+    if(this.auxiliar != params || this.show == false)
+    {
+      this.show = true;
+      console.log(params);
+      this.companyDetalle = params;
+    } 
+    else
+    {
+      this.show = false;
+    }
+
+    this.auxiliar = params;
   }
  
 }

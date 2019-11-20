@@ -4,3 +4,26 @@
     justify-content: center;
     align-items: center;
 }
+
+.tabla
+{
+    float: left;
+    width: 70%;
+}
+
+th
+{
+    border: solid;
+    border-color: red;
+}
+
+td
+{
+    border: solid;
+    border-color: blue;
+}
+
+table
+{
+    border:solid;
+}
