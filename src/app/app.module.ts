@@ -39,6 +39,8 @@ import { FiltradorComponent } from './components/shared/nelson/filtrador/filtrad
 import { DetenidosdesaparecidosService } from './components/shared/camilo/camilo/app-service/servicio1/detenidosdesaparecidos.service';
 import { VerMasComponent } from './components/shared/camilo/ver-mas/ver-mas.component';
 import { DetallePersonaComponent } from './components/shared/lorena/detalle-persona/detalle-persona.component';
+import { UserDetallesComponent } from './components/shared/alonso/user-detalles/user-detalles.component';
+
 
 @NgModule({
   declarations: [
@@ -81,7 +83,9 @@ import { DetallePersonaComponent } from './components/shared/lorena/detalle-pers
     ComponentOcultoComponent,
     FiltradorComponent,
     VerMasComponent,
-    DetallePersonaComponent
+    DetallePersonaComponent,
+    UserDetallesComponent
+
   ],
   imports: [
     BrowserModule,

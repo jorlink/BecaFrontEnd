@@ -1,0 +1,54 @@
+
+.personal{
+    width: 70%;
+    height:1000px;
+    float: left;
+}
+
+.detalleP{
+    float: right;
+    width: 25%;
+    height: auto;
+    background-color: aliceblue;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 15px;
+}
+
+.filtrar{
+    background-color: antiquewhite;
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+h2{
+    text-align: center;
+}
+
+
+
+table{
+    background-color: antiquewhite;
+    text-align: left;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+th, td{
+    padding: 10px;
+}
+
+thead{
+    background-color: lightsteelblue;
+    border-bottom: solid 2px lightyellow;
+}
+
+tr:nth-child(even){
+    background-color: #dddddd;
+}
+
+tr:hover td{
+    background-color: lightslategrey;
+    color: white;
+}
